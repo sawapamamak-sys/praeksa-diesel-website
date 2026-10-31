@@ -387,6 +387,18 @@ dialog.album-dialog::backdrop,dialog.lightbox::backdrop{animation:diesel-backdro
 .article-card span{font-weight:800;color:var(--color-navy);font-size:13.5px}
 @media(max-width:860px){.article-grid{grid-template-columns:1fr}}
 
+/* ---- modern gallery: overlay captions ---- */
+.photos figure{position:relative}
+.photos .photo-open{position:relative;display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in}
+.photos figcaption{position:absolute;left:0;right:0;bottom:0;margin:0;padding:34px 16px 14px;background:linear-gradient(0deg,rgba(7,18,37,.85) 0%,rgba(7,18,37,.45) 65%,transparent 100%);color:#fff;font-size:13.5px;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:10px;line-height:1.4}
+.photos figcaption .inline-arrow,.photos figcaption span{color:#fff;opacity:.9}
+.photos img{transition:transform .6s ease,filter .5s ease}
+.photos .photo-open:hover img{transform:scale(1.07)}
+.album-grid button{position:relative}
+.album-grid span{position:absolute;left:0;right:0;bottom:0;margin:0;padding:28px 12px 11px;background:linear-gradient(0deg,rgba(7,18,37,.85) 0%,rgba(7,18,37,.4) 65%,transparent 100%);color:#fff!important;font-weight:600}
+.album-grid img{height:190px}
+@media(max-width:760px){.album-grid img{height:165px}.album-grid span{padding:22px 10px 9px;font-size:11.5px}.photos figcaption{padding:26px 13px 11px;font-size:12.5px}}
+
 .services-grid .card{position:relative;overflow:hidden;border-radius:24px;padding-top:26px}
 .services-grid .card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--color-navy),var(--color-accent));transform:scaleX(0);transform-origin:left;transition:transform .4s ease}
 .services-grid .card:hover::before{transform:scaleX(1)}
