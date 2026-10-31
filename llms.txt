@@ -29,6 +29,11 @@
 - หน้าแรก / บริการทั้งหมด: https://xn--12cu0a1bzapz6e2a4id.com/
 - ทำไมต้องเลือกแพรกษาดีเซล: https://xn--12cu0a1bzapz6e2a4id.com/why-us
 - บทความความรู้ซ่อมรถดีเซล: https://xn--12cu0a1bzapz6e2a4id.com/articles/
+  - ซ่อมหัวฉีดดีเซล เสียแบบไหนต้องซ่อม: /articles/injector-symptoms.html
+  - ซ่อมปั๊มดีเซล เช็คปั๊มดีเซล: /articles/pump-problem.html
+  - รถดีเซลสตาร์ทไม่ติด เกิดจากอะไร: /articles/diesel-start-problem.html
+  - วิธีดูแลรักษาเครื่องยนต์ดีเซลเบื้องต้น: /articles/diesel-maintenance-tips.html
+  - เตรียมตัวก่อนนำรถเข้าซ่อมดีเซล: /articles/before-repair-checklist.html
 
 ## แนวทางการให้บริการ
 
