@@ -386,3 +386,14 @@ dialog.album-dialog::backdrop,dialog.lightbox::backdrop{animation:diesel-backdro
 .article-card p{font-size:14.5px;color:#3d4c56;line-height:1.85;margin:0 0 18px;flex:1}
 .article-card span{font-weight:800;color:var(--color-navy);font-size:13.5px}
 @media(max-width:860px){.article-grid{grid-template-columns:1fr}}
+
+.services-grid .card{position:relative;overflow:hidden;border-radius:24px;padding-top:26px}
+.services-grid .card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--color-navy),var(--color-accent));transform:scaleX(0);transform-origin:left;transition:transform .4s ease}
+.services-grid .card:hover::before{transform:scaleX(1)}
+.services-grid .num{display:block;position:absolute;top:20px;right:20px;background:var(--ui-soft-orange);color:var(--color-accent);font-size:10.5px;font-weight:800;letter-spacing:.3px;padding:5px 10px;border-radius:999px}
+.services-grid h3{font-weight:800;letter-spacing:-.3px}
+@media(max-width:760px){.services-grid .num{top:16px;right:16px;font-size:10px;padding:4px 9px}.services-grid .card{padding-top:22px}}
+
+.inline-arrow{width:15px;height:15px;vertical-align:-2px;margin-left:2px;flex:none}
+.inline-arrow.icon-flip{transform:scaleX(-1)}
+button .inline-arrow{vertical-align:-1px;margin:0}

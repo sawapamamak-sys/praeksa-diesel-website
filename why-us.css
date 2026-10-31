@@ -61,3 +61,6 @@ footer{border-top:3px solid transparent;border-image:linear-gradient(90deg,var(-
   .btn,.header-phone,.reason-grid article,.work-grid figure,.scope-grid article,.work-grid img{transition:none!important}
   .btn:hover,.reason-grid article:hover,.work-grid figure:hover,.scope-grid article:hover,.work-grid figure:hover img{transform:none!important}
 }
+
+.inline-arrow{width:15px;height:15px;vertical-align:-2px;margin-left:2px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.inline-arrow.icon-flip{transform:scaleX(-1)}
