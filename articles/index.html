@@ -13,7 +13,7 @@
   <meta property="og:description" content="รวมบทความความรู้เรื่องซ่อมรถดีเซล ซ่อมปั๊มดีเซล ซ่อมหัวฉีด และระบบคอมมอนเรล">
   <meta property="og:image" content="https://xn--12cu0a1bzapz6e2a4id.com/shop-front-v9.jpg">
   <meta property="og:locale" content="th_TH">
-  <link rel="stylesheet" href="../style.css?v=12">
+  <link rel="stylesheet" href="../style.css?v=13">
 </head>
 <body>
 <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><symbol id="icon-pump" viewBox="0 0 24 24"><path d="M4 20V8l4-4h8l4 4v12M4 12h16M8 4v8m8-8v8M2 20h20"/></symbol><symbol id="icon-injector" viewBox="0 0 24 24"><path d="M8 3h8M10 3v4h4V3M7 7h10v9H7zM10 16v5m4-5v5m-7-9h10"/></symbol><symbol id="icon-clean" viewBox="0 0 24 24"><path d="M7 3h10v5H7zM9 8v12h6V8M5 14l-2 2m17-2 2 2M4 6l1 1m14-1 1 1"/></symbol><symbol id="icon-wrench" viewBox="0 0 24 24"><path d="M20 7a6 6 0 0 1-8 7l-7 7-3-3 7-7a6 6 0 0 1 7-8l-4 4 3 3 5-3z"/></symbol><symbol id="icon-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-3 2a15 15 0 0 0 6 6l2-3 5 2v4c0 1-1 2-2 2C10 21 3 14 3 5c0-1 1-2 2-2z"/></symbol><symbol id="icon-chat" viewBox="0 0 24 24"><path d="M3 5h18v12H9l-5 4v-4H3zM7 10h10m-10 3h7"/></symbol><symbol id="icon-map" viewBox="0 0 24 24"><path d="M12 22s7-7 7-13a7 7 0 1 0-14 0c0 6 7 13 7 13z"/><circle cx="12" cy="9" r="2"/></symbol></svg>
@@ -28,8 +28,8 @@
   </section>
   <section class="section">
     <div class="wrap">
-      
-    <div class="article-group">
+      <div class="category-filters" role="group" aria-label="กรองหมวดบทความ"><button class="cat-filter active" type="button" data-target="all">ทั้งหมด (10)</button><button class="cat-filter" type="button" data-target="g1">สังเกตอาการรถดีเซล (5)</button><button class="cat-filter" type="button" data-target="g2">ก่อนตัดสินใจซ่อม (2)</button><button class="cat-filter" type="button" data-target="g3">ความรู้ระบบดีเซล (1)</button><button class="cat-filter" type="button" data-target="g4">ดูแลรักษาและลูกค้าธุรกิจ (2)</button></div>
+      <div class="article-group" data-group="g1">
       <div class="article-group-head">
         <span class="article-group-icon tint-warm"><svg class="icon" aria-hidden="true"><use href="#icon-wrench"/></svg></span>
         <h2 class="article-group-title">สังเกตอาการรถดีเซล</h2>
@@ -68,7 +68,7 @@
         </a>
       </div>
     </div>
-    <div class="article-group">
+    <div class="article-group" data-group="g2">
       <div class="article-group-head">
         <span class="article-group-icon tint-green"><svg class="icon" aria-hidden="true"><use href="#icon-chat"/></svg></span>
         <h2 class="article-group-title">ก่อนตัดสินใจซ่อม</h2>
@@ -89,7 +89,7 @@
         </a>
       </div>
     </div>
-    <div class="article-group">
+    <div class="article-group" data-group="g3">
       <div class="article-group-head">
         <span class="article-group-icon tint-navy"><svg class="icon" aria-hidden="true"><use href="#icon-pump"/></svg></span>
         <h2 class="article-group-title">ความรู้ระบบดีเซล</h2>
@@ -104,7 +104,7 @@
         </a>
       </div>
     </div>
-    <div class="article-group">
+    <div class="article-group" data-group="g4">
       <div class="article-group-head">
         <span class="article-group-icon tint-warm"><svg class="icon" aria-hidden="true"><use href="#icon-clean"/></svg></span>
         <h2 class="article-group-title">ดูแลรักษาและลูกค้าธุรกิจ</h2>
@@ -128,5 +128,21 @@
     </div>
   </section>
 <footer class="foot"><div class="wrap"><div class="footer-identity"><strong>แพรกษาดีเซล</strong><span>เชี่ยวชาญงานปั๊ม หัวฉีด และเครื่องยนต์ดีเซล</span><small>© แพรกษาดีเซล</small></div><div class="footer-contact"><a href="tel:0893655414">โทร 089-365-5414</a><a href="https://lin.ee/NSm6Wwr" target="_blank" rel="noopener noreferrer">ติดต่อ LINE →</a></div><a href="../why-us.html">ทำไมต้องเลือกเรา →</a></div></footer><nav class="floating-contact" aria-label="ติดต่อแพรกษาดีเซล"><a class="float-phone" href="tel:0893655414" aria-label="โทรหาแพรกษาดีเซล 089-365-5414"><span class="contact-picture" aria-hidden="true"></span></a><a class="float-line" href="https://lin.ee/NSm6Wwr" target="_blank" rel="noopener noreferrer" aria-label="แชต LINE แพรกษาดีเซล"><span class="contact-picture" aria-hidden="true"></span></a></nav>
+<script>
+(function(){
+  var btns = document.querySelectorAll('.cat-filter');
+  var groups = document.querySelectorAll('.article-group');
+  btns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      btns.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var target = btn.dataset.target;
+      groups.forEach(function(g){
+        g.style.display = (target === 'all' || g.dataset.group === target) ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>
 </body>
 </html>

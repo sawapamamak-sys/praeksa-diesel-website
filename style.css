@@ -433,3 +433,11 @@ button .inline-arrow{vertical-align:-1px;margin:0}
 
 .hours{display:inline-block;margin-top:4px!important;padding:8px 14px;background:var(--ui-soft-orange);border-radius:999px;font-size:13.5px;color:var(--color-ink)}
 .hours strong{color:var(--color-accent)}
+
+.category-filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:38px}
+.cat-filter{border:1px solid var(--color-line);background:var(--color-paper);color:var(--color-navy);border-radius:999px;padding:10px 18px;min-height:44px;font-size:14px;font-weight:600;cursor:pointer;transition:background-color .22s ease,color .22s ease,border-color .22s ease,box-shadow .22s ease,transform .22s ease}
+.cat-filter.active{background:var(--color-navy);color:#fff;border-color:var(--color-navy);box-shadow:0 4px 12px rgba(21,59,107,.24);font-weight:700}
+.cat-filter:active{transform:scale(.97)}
+@media(hover:hover){.cat-filter:hover{border-color:var(--color-navy);box-shadow:0 4px 10px rgba(21,59,107,.15)}}
+@media(max-width:760px){.category-filters{gap:8px;margin-bottom:28px;flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px}.cat-filter{flex:none;font-size:13px;padding:9px 15px}}
+@media(prefers-reduced-motion:reduce){.cat-filter{transition:none}}
