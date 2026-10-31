@@ -64,3 +64,11 @@ footer{border-top:3px solid transparent;border-image:linear-gradient(90deg,var(-
 
 .inline-arrow{width:15px;height:15px;vertical-align:-2px;margin-left:2px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .inline-arrow.icon-flip{transform:scaleX(-1)}
+
+.scope-grid article{display:flex;flex-direction:column}
+.scope-icon{width:48px;height:48px;border-radius:12px;background:#eaf1f8;color:var(--navy);display:grid;place-items:center;margin-bottom:14px}
+.scope-icon svg{width:26px;height:26px}
+.scope-grid article span{order:2}
+.scope-grid article h3{order:3}
+.scope-grid article p{order:4}
+.scope-icon{order:1}
