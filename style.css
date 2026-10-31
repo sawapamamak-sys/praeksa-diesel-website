@@ -338,8 +338,10 @@ dialog.album-dialog::backdrop,dialog.lightbox::backdrop{animation:diesel-backdro
 .article-wrap{max-width:780px;margin:0 auto;padding:52px 24px 20px}
 .article-body h2{font-size:24px;line-height:1.4;color:var(--color-navy);margin:40px 0 14px;letter-spacing:-.3px}
 .article-body h3{font-size:19px;line-height:1.4;color:var(--color-ink);margin:26px 0 10px}
-.article-body p{font-size:16px;line-height:1.9;color:#334650;margin:0 0 18px}
-.article-body ul,.article-body ol{margin:0 0 18px;padding-left:22px;font-size:16px;line-height:1.9;color:#334650}
+.article-body p{font-size:16px;line-height:1.9;color:#232f38;margin:0 0 18px}
+.article-body ul,.article-body ol{margin:0 0 18px;padding-left:22px;font-size:16px;line-height:1.9;color:#232f38}
+.article-meta{color:#fff;opacity:.85}
+.breadcrumb a,.breadcrumb{color:#e4edf5!important}
 .article-body li{margin:0 0 8px}
 .article-body strong{color:var(--color-navy)}
 .article-cta{background:var(--ui-soft-orange);border:1px solid #f0d4c4;border-radius:var(--ui-radius);padding:26px 28px;margin:36px 0;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px}
@@ -367,6 +369,6 @@ dialog.album-dialog::backdrop,dialog.lightbox::backdrop{animation:diesel-backdro
 .article-card:hover{transform:translateY(-5px);box-shadow:var(--ui-shadow)}
 .article-card .eyebrow{margin-bottom:10px}
 .article-card h2{font-size:19px;line-height:1.4;color:var(--color-navy);margin:0 0 10px}
-.article-card p{font-size:14px;color:var(--color-muted);line-height:1.75;margin:0 0 16px;flex:1}
+.article-card p{font-size:14px;color:#3d4c56;line-height:1.75;margin:0 0 16px;flex:1}
 .article-card span{font-weight:800;color:var(--color-navy);font-size:13.5px}
 @media(max-width:860px){.article-grid{grid-template-columns:1fr}}
