@@ -430,3 +430,6 @@ dialog.album-dialog::backdrop,dialog.lightbox::backdrop{animation:diesel-backdro
 .inline-arrow{width:15px;height:15px;vertical-align:-2px;margin-left:2px;flex:none}
 .inline-arrow.icon-flip{transform:scaleX(-1)}
 button .inline-arrow{vertical-align:-1px;margin:0}
+
+.hours{display:inline-block;margin-top:4px!important;padding:8px 14px;background:var(--ui-soft-orange);border-radius:999px;font-size:13.5px;color:var(--color-ink)}
+.hours strong{color:var(--color-accent)}

@@ -72,3 +72,6 @@ footer{border-top:3px solid transparent;border-image:linear-gradient(90deg,var(-
 .scope-grid article h3{order:3}
 .scope-grid article p{order:4}
 .scope-icon{order:1}
+
+.hours{display:inline-block;margin-top:10px!important;padding:8px 14px;background:#fdf1ec;border-radius:999px;font-size:13.5px;color:var(--ink)}
+.hours strong{color:var(--orange)}
