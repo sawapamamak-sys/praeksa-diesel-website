@@ -43,18 +43,19 @@ footer{border-top:3px solid transparent;border-image:linear-gradient(90deg,var(-
 @media(max-width:680px){
   #main-nav{max-height:0;opacity:0;overflow:hidden;padding:0 20px;pointer-events:none;transition:max-height .32s ease,opacity .28s ease,padding .32s ease}
   #main-nav.open{display:flex;max-height:72vh;opacity:1;padding:16px 20px;pointer-events:auto;overflow-y:auto}
-  .float-contact{display:none}
 }
 
-.mobile-cta{display:none}
-@media(max-width:680px){
-  body{padding-bottom:60px}
-  .mobile-cta{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:30;box-shadow:0 -6px 18px rgba(10,25,45,.18);padding-bottom:env(safe-area-inset-bottom)}
-  .mobile-cta a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;min-height:58px;color:#fff;font-weight:800;font-size:15px;text-decoration:none}
-  .mobile-cta a svg{width:19px;height:19px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-  .mobile-cta .cta-call{background:var(--navy)}
-  .mobile-cta .cta-line{background:#06c755}
-}
+.mobile-cta{display:none!important}
+
+/* ---- modern round contact buttons (restored + polished) ---- */
+.float-contact a{transition:transform .25s ease,box-shadow .25s ease,filter .25s ease}
+.float-contact a:hover{transform:translateY(-3px) scale(1.04);filter:brightness(1.06)}
+@media(prefers-reduced-motion:reduce){.float-contact a{transition:none}.float-contact a:hover{transform:none}}
+
+/* ---- modern pill buttons ---- */
+.btn{border-radius:999px!important}
+.reason-grid article{border-radius:18px}
+.work-grid figure{border-radius:16px}
 
 @media(prefers-reduced-motion:reduce){
   .btn,.header-phone,.reason-grid article,.work-grid figure,.scope-grid article,.work-grid img{transition:none!important}

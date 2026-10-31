@@ -309,18 +309,19 @@ dialog.album-dialog::backdrop,dialog.lightbox::backdrop{animation:diesel-backdro
 @media(max-width:760px){
   .links{display:flex;flex-direction:column;align-items:stretch;gap:14px;max-height:0;opacity:0;overflow:hidden;padding:0 24px;pointer-events:none;transition:max-height .32s ease,opacity .28s ease,padding .32s ease}
   .links.open{display:flex;max-height:72vh;opacity:1;padding:20px 24px;pointer-events:auto;overflow-y:auto}
-  .floating-contact{display:none}
 }
 
-.mobile-cta{display:none}
-@media(max-width:760px){
-  body{padding-bottom:60px}
-  .mobile-cta{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:30;box-shadow:0 -6px 18px rgba(10,25,45,.18);padding-bottom:env(safe-area-inset-bottom)}
-  .mobile-cta a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;min-height:58px;color:#fff;font-weight:800;font-size:15px;text-decoration:none}
-  .mobile-cta a svg{width:19px;height:19px;flex:none}
-  .mobile-cta .cta-call{background:var(--color-navy)}
-  .mobile-cta .cta-line{background:var(--color-green)}
-}
+.mobile-cta{display:none!important}
+
+/* ---- modern round contact buttons (restored + polished) ---- */
+.floating-contact a{transition:transform .25s ease,box-shadow .25s ease,filter .25s ease;box-shadow:0 6px 18px rgba(10,25,45,.22)}
+.floating-contact a:hover{transform:translateY(-3px) scale(1.04);box-shadow:0 12px 26px rgba(10,25,45,.3);filter:brightness(1.06)}
+@media(prefers-reduced-motion:reduce){.floating-contact a{transition:none}.floating-contact a:hover{transform:none}}
+
+/* ---- modern pill buttons ---- */
+.btn,.pill,.album-open,.banner-phone,.banner-line{border-radius:999px!important}
+.services-grid .card{border-radius:20px}
+.photos figure,.photos button,.album-grid button{border-radius:16px}
 
 @media(prefers-reduced-motion:reduce){
   .btn,.pill,.album-open,.banner-phone,.banner-line,.services-grid .card,.photos figure,.album-grid button,.detail-panel,.repair-icon,.photos img,.album-grid img{transition:none!important}
