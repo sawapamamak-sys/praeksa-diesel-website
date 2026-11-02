@@ -176,14 +176,6 @@ window.workPhotos=[
     ]
   },
   {
-    "src": "album/work-62.jpg",
-    "thumb": "album/thumb/work-62.jpg",
-    "title": "อะไหล่ใบปัดน้ำฝนที่ร้าน",
-    "categories": [
-      "shop"
-    ]
-  },
-  {
     "src": "album/work-63.jpg",
     "thumb": "album/thumb/work-63.jpg",
     "title": "รถบรรทุกคอกไม้ Isuzu",
