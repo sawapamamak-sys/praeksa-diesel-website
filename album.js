@@ -9,7 +9,7 @@ let selectedCategory='all';
 const getPhotos=id=>id==='all'?photos:photos.filter(p=>(p.categories||[]).includes(id));
 function renderAlbum(id){selectedCategory=id;const selected=getPhotos(id);grid.replaceChildren();album.querySelector('.album-status').textContent=`${categories.find(c=>c[0]===id)[1]} · ${selected.length} ภาพ · กดภาพเพื่อขยาย`;
 document.querySelectorAll('.album-filter,.album-shortcuts button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.category===id)));
-selected.forEach((photo,i)=>{const button=document.createElement('button');button.type='button';button.setAttribute('aria-label',`ขยายภาพ ${i+1}: ${photo.title}`);const img=document.createElement('img');img.src=photo.src;img.alt=photo.title;img.loading='lazy';img.decoding='async';const label=document.createElement('span');label.textContent=photo.title;button.append(img,label);button.addEventListener('click',()=>{activePhotos=selected;showPhoto(i);});grid.append(button);});
+selected.forEach((photo,i)=>{const button=document.createElement('button');button.type='button';button.setAttribute('aria-label',`ขยายภาพ ${i+1}: ${photo.title}`);const img=document.createElement('img');img.src=photo.thumb||photo.src;img.alt=photo.title;img.loading='lazy';img.decoding='async';const label=document.createElement('span');label.textContent=photo.title;button.append(img,label);button.addEventListener('click',()=>{activePhotos=selected;showPhoto(i);});grid.append(button);});
 if(!selected.length){const empty=document.createElement('p');empty.textContent='ยังไม่มีภาพในหมวดนี้';grid.append(empty);}
 album.scrollTop=0;
 }
