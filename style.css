@@ -348,6 +348,13 @@ dialog.album-dialog::backdrop,dialog.lightbox::backdrop{animation:diesel-backdro
 .article-cta p{margin:0;font-weight:700;color:var(--color-navy);font-size:15.5px;max-width:420px}
 .article-cta .actions{display:flex;gap:10px;flex-wrap:wrap}
 .article-cta .btn{min-height:46px;padding:0 20px;border-radius:999px}
+.related-articles{margin:44px 0 0;padding-top:28px;border-top:1px solid var(--color-line)}
+.related-articles h2{font-size:17px;color:var(--color-navy);margin:0 0 14px}
+.related-links{display:grid;gap:10px}
+.related-links a{display:block;padding:14px 18px;background:var(--color-paper);border:1px solid var(--color-line);border-radius:12px;color:var(--color-navy);font-weight:700;font-size:14.5px;text-decoration:none;transition:border-color .22s ease,box-shadow .22s ease,transform .22s ease}
+.related-links a:hover{border-color:var(--color-navy);box-shadow:var(--ui-shadow);transform:translateY(-2px)}
+@media(prefers-reduced-motion:reduce){.related-links a{transition:none}.related-links a:hover{transform:none}}
+
 .article-foot-nav{display:flex;justify-content:space-between;gap:16px;margin-top:40px;padding-top:24px;border-top:1px solid var(--color-line);flex-wrap:wrap}
 .article-foot-nav a{font-weight:700;color:var(--color-navy);text-decoration:none}
 .article-foot-nav a:hover{color:var(--color-accent)}
