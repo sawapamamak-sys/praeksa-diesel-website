@@ -1,5 +1,292 @@
 window.workPhotos=[
   {
+    "src": "album/work-40.jpg",
+    "title": "ตรวจเครื่องยนต์ Toyota Prado",
+    "categories": [
+      "vehicle"
+    ]
+  },
+  {
+    "src": "album/work-41.jpg",
+    "title": "เปิดฝากระโปรงตรวจเครื่องยนต์ Mitsubishi",
+    "categories": [
+      "pickup"
+    ]
+  },
+  {
+    "src": "album/work-42.jpg",
+    "title": "เปลี่ยนแบตเตอรี่รถกระบะ Nissan",
+    "categories": [
+      "pickup"
+    ]
+  },
+  {
+    "src": "album/work-43.jpg",
+    "title": "รถบรรทุกจอดรอตรวจในพื้นที่ร้าน",
+    "categories": [
+      "truck"
+    ]
+  },
+  {
+    "src": "album/work-44.jpg",
+    "title": "ช่างตรวจเครื่องยนต์รถบรรทุก",
+    "categories": [
+      "truck"
+    ]
+  },
+  {
+    "src": "album/work-45.jpg",
+    "title": "รถเก๋งจอดรับบริการที่ร้าน",
+    "categories": [
+      "vehicle"
+    ]
+  },
+  {
+    "src": "album/work-46.jpg",
+    "title": "มุมสูงรถบรรทุกจอดในพื้นที่ร้าน",
+    "categories": [
+      "truck"
+    ]
+  },
+  {
+    "src": "album/work-47.jpg",
+    "title": "ช่างตรวจใต้ท้องรถกระบะ Isuzu",
+    "categories": [
+      "pickup"
+    ]
+  },
+  {
+    "src": "album/work-48.jpg",
+    "title": "รถบรรทุก Isuzu แต่งลาย",
+    "categories": [
+      "truck"
+    ]
+  },
+  {
+    "src": "album/work-49.jpg",
+    "title": "ซ่อมรถบรรทุกช่วงกลางคืน",
+    "categories": [
+      "truck"
+    ]
+  },
+  {
+    "src": "album/work-50.jpg",
+    "title": "ตรวจเครื่องยนต์หัวลากช่วงเช้า",
+    "categories": [
+      "truck"
+    ]
+  },
+  {
+    "src": "album/work-51.jpg",
+    "title": "แท่นทดสอบปั๊มดีเซลภายในร้าน",
+    "categories": [
+      "pump"
+    ]
+  },
+  {
+    "src": "album/work-52.jpg",
+    "title": "ช่างตรวจล้อรถกระบะ Chevrolet Colorado",
+    "categories": [
+      "pickup"
+    ]
+  },
+  {
+    "src": "album/work-53.jpg",
+    "title": "รถตู้ Toyota Commuter เข้ารับบริการ",
+    "categories": [
+      "vehicle"
+    ]
+  },
+  {
+    "src": "album/work-54.jpg",
+    "title": "ช่างตรวจรถกระบะ Mazda",
+    "categories": [
+      "pickup"
+    ]
+  },
+  {
+    "src": "album/work-55.jpg",
+    "title": "ตรวจเครื่องยนต์ Isuzu D-Max",
+    "categories": [
+      "pickup"
+    ]
+  },
+  {
+    "src": "album/work-56.jpg",
+    "title": "ตรวจเครื่องยนต์ Toyota Hilux รุ่นเก่า",
+    "categories": [
+      "pickup"
+    ]
+  },
+  {
+    "src": "album/work-57.jpg",
+    "title": "รถบรรทุก Isuzu จอดรอตรวจ",
+    "categories": [
+      "truck"
+    ]
+  },
+  {
+    "src": "album/work-58.jpg",
+    "title": "ตรวจเครื่องยนต์ Toyota Fortuner",
+    "categories": [
+      "vehicle"
+    ]
+  },
+  {
+    "src": "album/work-59.jpg",
+    "title": "ช่างตรวจเครื่องยนต์รถกระบะ Isuzu",
+    "categories": [
+      "pickup"
+    ]
+  },
+  {
+    "src": "album/work-60.jpg",
+    "title": "ตรวจเครื่องยนต์ Mitsubishi ใต้ร่มกันแดด",
+    "categories": [
+      "vehicle"
+    ]
+  },
+  {
+    "src": "album/work-61.jpg",
+    "title": "รถบัสแต่งลายเข้ารับบริการ",
+    "categories": [
+      "bus"
+    ]
+  },
+  {
+    "src": "album/work-62.jpg",
+    "title": "อะไหล่ใบปัดน้ำฝนที่ร้าน",
+    "categories": [
+      "shop"
+    ]
+  },
+  {
+    "src": "album/work-63.jpg",
+    "title": "รถบรรทุกคอกไม้ Isuzu",
+    "categories": [
+      "truck"
+    ]
+  },
+  {
+    "src": "album/work-64.jpg",
+    "title": "ซ่อมรถบัสช่วงกลางคืน",
+    "categories": [
+      "bus"
+    ]
+  },
+  {
+    "src": "album/work-65.jpg",
+    "title": "ตรวจเครื่องยนต์รถบัสขนส่งผู้โดยสาร",
+    "categories": [
+      "bus"
+    ]
+  },
+  {
+    "src": "album/work-66.jpg",
+    "title": "รถบัสสองชั้นเข้ารับบริการ",
+    "categories": [
+      "bus"
+    ]
+  },
+  {
+    "src": "album/work-67.jpg",
+    "title": "ช่างซ่อมรถกระบะ Toyota Hilux Vigo",
+    "categories": [
+      "pickup"
+    ]
+  },
+  {
+    "src": "album/work-68.jpg",
+    "title": "หัวลาก Isuzu พร้อมรถพ่วง",
+    "categories": [
+      "truck"
+    ]
+  },
+  {
+    "src": "album/work-69.jpg",
+    "title": "ตรวจเครื่องยนต์รถอเนกประสงค์",
+    "categories": [
+      "vehicle"
+    ]
+  },
+  {
+    "src": "album/work-70.jpg",
+    "title": "ซ่อมระบบไฟฟ้ารถตู้",
+    "categories": [
+      "vehicle"
+    ]
+  },
+  {
+    "src": "album/work-71.jpg",
+    "title": "หน้าร้านแพรกษาดีเซล",
+    "categories": [
+      "shop"
+    ]
+  },
+  {
+    "src": "album/work-72.jpg",
+    "title": "ตรวจเครื่องยนต์ Ford Everest",
+    "categories": [
+      "vehicle"
+    ]
+  },
+  {
+    "src": "album/work-73.jpg",
+    "title": "ตรวจสภาพรถกระบะช่วงกลางคืน",
+    "categories": [
+      "pickup"
+    ]
+  },
+  {
+    "src": "album/work-74.jpg",
+    "title": "รถตู้ Toyota Super Custom เข้ารับบริการ",
+    "categories": [
+      "vehicle"
+    ]
+  },
+  {
+    "src": "album/work-75.jpg",
+    "title": "หัวลากรถบรรทุกจอดที่ร้าน",
+    "categories": [
+      "truck"
+    ]
+  },
+  {
+    "src": "album/work-76.jpg",
+    "title": "ช่างตรวจหัวลากรถบรรทุก",
+    "categories": [
+      "truck"
+    ]
+  },
+  {
+    "src": "album/work-77.jpg",
+    "title": "ช่างตรวจเครื่องยนต์รถกระบะ Toyota",
+    "categories": [
+      "pickup"
+    ]
+  },
+  {
+    "src": "album/work-78.jpg",
+    "title": "ตรวจเครื่องยนต์ Ford Everest",
+    "categories": [
+      "vehicle"
+    ]
+  },
+  {
+    "src": "album/work-79.jpg",
+    "title": "ตรวจเครื่องยนต์ Mercedes-Benz",
+    "categories": [
+      "vehicle"
+    ]
+  },
+  {
+    "src": "album/work-80.jpg",
+    "title": "ตรวจเครื่องยนต์ Isuzu รุ่นเก่า",
+    "categories": [
+      "pickup"
+    ]
+  },
+  {
     "src": "shop-front-v9.jpg",
     "title": "หน้าร้านแพรกษาดีเซล",
     "categories": [
