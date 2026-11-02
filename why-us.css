@@ -101,7 +101,8 @@ footer{border-top:3px solid transparent;border-image:linear-gradient(90deg,var(-
 .testimonial-slide.active{display:block;animation:tFade .35s ease}
 @keyframes tFade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 .t-top{display:flex;align-items:center;gap:12px;margin-bottom:10px}
-.t-avatar{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:800;font-size:17px;flex:none}
+.t-avatar{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:800;font-size:17px;flex:none;overflow:hidden}
+.t-avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}
 .t-who{display:flex;flex-direction:column;line-height:1.3;min-width:0}
 .t-who strong{font-size:14.5px;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .t-who small{font-size:11.5px;color:var(--muted)}
