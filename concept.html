@@ -236,5 +236,6 @@ const m=document.querySelector('.menu'),links=document.querySelector('.links');
 m.addEventListener('click',()=>{const open=links.classList.toggle('open');m.setAttribute('aria-expanded',String(open));});
 links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');m.setAttribute('aria-expanded','false');}));
 </script>
+<script src="conversion-events.js?v=1" defer></script>
 </body>
 </html>
