@@ -39,6 +39,9 @@
   - ซ่อมรถดีเซล ราคาเท่าไหร่ ขึ้นอยู่กับอะไรบ้าง: /articles/repair-cost-factors.html
   - รถดีเซลกินน้ำมันเยอะขึ้น เกิดจากอะไร: /articles/fuel-consumption-increase.html
   - ดูแลรถบรรทุก รถบัสดีเซล: /articles/commercial-fleet-care.html
+  - ล้างหัวฉีดดีเซล คืออะไร ต่างจากซ่อมหัวฉีด: /articles/injector-cleaning-explained.html
+  - เทอร์โบดีเซลมีปัญหา สังเกตอาการยังไง: /articles/turbo-problem-symptoms.html
+  - เครื่องยนต์ดีเซลสั่น เดินเบาไม่นิ่ง: /articles/engine-vibration-idle.html
 
 ## แนวทางการให้บริการ
 
