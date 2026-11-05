@@ -42,6 +42,9 @@
   - ล้างหัวฉีดดีเซล คืออะไร ต่างจากซ่อมหัวฉีด: /articles/injector-cleaning-explained.html
   - เทอร์โบดีเซลมีปัญหา สังเกตอาการยังไง: /articles/turbo-problem-symptoms.html
   - เครื่องยนต์ดีเซลสั่น เดินเบาไม่นิ่ง: /articles/engine-vibration-idle.html
+  - ร้านซ่อมปั๊มดีเซล หัวฉีด ในสมุทรปราการ เลือกยังไงดี: /articles/choosing-diesel-repair-shop.html
+  - ซ่อมรถดีเซล แถวแพรกษา บางพลี เทพารักษ์ ร้านไหนสะดวก: /articles/diesel-repair-praeksa-area.html
+  - ซ่อมรถบรรทุก รถบัสดีเซล ที่ไหนรับงานบ้าง: /articles/truck-bus-diesel-repair-shop.html
 
 ## แนวทางการให้บริการ
 
