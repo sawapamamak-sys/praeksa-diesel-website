@@ -26,7 +26,7 @@
 <body>
 <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><symbol id="icon-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-3 2a15 15 0 0 0 6 6l2-3 5 2v4c0 1-1 2-2 2C10 21 3 14 3 5c0-1 1-2 2-2z"/></symbol><symbol id="icon-chat" viewBox="0 0 24 24"><path d="M3 5h18v12H9l-5 4v-4H3zM7 10h10m-10 3h7"/></symbol><symbol id="icon-map" viewBox="0 0 24 24"><path d="M12 22s7-7 7-13a7 7 0 1 0-14 0c0 6 7 13 7 13z"/><circle cx="12" cy="9" r="2"/></symbol></svg>
 
-<header class="nav"><div class="wrap"><a class="brand" href="index.html" aria-label="แพรกษาดีเซล หน้าแรก"><span class="brand-name">แพรกษาดีเซล</span><small>PRAEKSA DIESEL SERVICE</small></a><a class="header-phone" href="tel:0893655414" aria-label="โทรหาแพรกษาดีเซล 089-365-5414"><svg class="icon" aria-hidden="true"><use href="#icon-phone"/></svg><span>089-365-5414</span></a></div></header>
+<header class="nav"><div class="wrap"><a class="brand" href="/" aria-label="แพรกษาดีเซล หน้าแรก"><span class="brand-name">แพรกษาดีเซล</span><small>PRAEKSA DIESEL SERVICE</small></a><a class="header-phone" href="tel:0893655414" aria-label="โทรหาแพรกษาดีเซล 089-365-5414"><svg class="icon" aria-hidden="true"><use href="#icon-phone"/></svg><span>089-365-5414</span></a></div></header>
 
 <section class="article-hero">
   <div class="wrap">
@@ -57,13 +57,13 @@
         <label>เบอร์โทรศัพท์<input type="tel" name="phone" required placeholder="08X-XXX-XXXX" pattern="[0-9\-]{9,12}"></label>
         <label>อาการรถ / งานที่สนใจ (ถ้ามี)<input type="text" name="detail" placeholder="เช่น สตาร์ทไม่ติด, เช็คปั๊ม"></label>
         <button type="submit" class="btn primary" style="width:100%;justify-content:center">ให้ร้านโทรกลับ</button>
-        <p class="consent">กดส่งแล้วจะเปิดแอปส่งข้อความเพื่อส่งข้อมูลให้ร้าน ข้อมูลของคุณใช้เพื่อติดต่อกลับเท่านั้น อ่าน<a href="privacy.html">นโยบายความเป็นส่วนตัว</a></p>
+        <p class="consent">กดส่งแล้วจะเปิดแอปส่งข้อความเพื่อส่งข้อมูลให้ร้าน ข้อมูลของคุณใช้เพื่อติดต่อกลับเท่านั้น อ่าน<a href="/privacy">นโยบายความเป็นส่วนตัว</a></p>
       </form>
     </div>
   </div>
 </section>
 
-<footer class="foot"><div class="wrap"><div class="footer-identity"><strong>แพรกษาดีเซล</strong><span>เชี่ยวชาญงานปั๊ม หัวฉีด และเครื่องยนต์ดีเซล</span><small>© แพรกษาดีเซล</small></div><div class="footer-contact"><a href="tel:0893655414">โทร 089-365-5414</a><a href="https://lin.ee/NSm6Wwr" target="_blank" rel="noopener noreferrer">ติดต่อ LINE</a></div><a href="index.html">กลับหน้าแรก</a><a href="privacy.html" style="font-size:12px;opacity:.8">นโยบายความเป็นส่วนตัว</a></div></footer>
+<footer class="foot"><div class="wrap"><div class="footer-identity"><strong>แพรกษาดีเซล</strong><span>เชี่ยวชาญงานปั๊ม หัวฉีด และเครื่องยนต์ดีเซล</span><small>© แพรกษาดีเซล</small></div><div class="footer-contact"><a href="tel:0893655414">โทร 089-365-5414</a><a href="https://lin.ee/NSm6Wwr" target="_blank" rel="noopener noreferrer">ติดต่อ LINE</a></div><a href="/">กลับหน้าแรก</a><a href="/privacy" style="font-size:12px;opacity:.8">นโยบายความเป็นส่วนตัว</a></div></footer>
 
 <script>(function(){var f=document.getElementById("callbackForm");if(!f)return;f.addEventListener("submit",function(e){e.preventDefault();var name=f.name.value.trim(),phone=f.phone.value.trim(),detail=f.detail.value.trim();var msg="สวัสดีครับ ขอให้ร้านแพรกษาดีเซลติดต่อกลับ ชื่อ: "+name+" เบอร์โทรกลับ: "+phone+(detail?" อาการ/งาน: "+detail:"");window.location.href="sms:0893655414?body="+encodeURIComponent(msg);});})();</script>
 <script src="conversion-events.js?v=1" defer></script>
